@@ -1,0 +1,39 @@
+.cover {
+	margin-bottom: 150px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 31px;
+}
+.cover__content {
+	max-width: 540px;
+}
+.cover__content-title {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 1.2;
+  margin-bottom: 22px;
+	margin-top: 81px;
+	text-transform: capitalize;
+}
+.cover__content-subtitle {
+  font-size: 32px;
+  line-height: 1.22;
+  color: #6f6f6f;
+  margin-bottom: 66px;
+}
+.cover__content-text {
+	margin-bottom: 80px;
+	max-width: 420px;
+}
+.text {
+  line-height: 1.2;
+}
+.text + .text {
+	margin-top: 20px;
+
+}
+
+

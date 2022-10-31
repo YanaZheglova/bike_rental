@@ -1,0 +1,30 @@
+.description {
+	margin-bottom: 150px;
+}
+
+.row {
+  display: flex;
+  justify-content: flex-start;
+	column-gap: 60px;
+}
+.description__img {
+  max-width: 570px;
+}
+.description__content {
+  max-width: 490px;
+}
+.description__content-title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.19;
+  text-transform: uppercase;
+	margin-bottom: 10px;
+}
+
+.description__content-text {
+	max-width: 450px;
+	
+&:not(:last-child) {
+	margin-bottom: 50px;
+}
+}

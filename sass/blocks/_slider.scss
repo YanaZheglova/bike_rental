@@ -1,0 +1,61 @@
+.cover__slider {
+  max-width: 630px;
+}
+.slider {
+}
+
+.slick-dots {
+  position: absolute;
+  top: 50px;
+  right: 0;
+
+  & button {
+    font-size: 0;
+    width: 2px;
+    height: 25px;
+
+    background-color: $color-black;
+    border-radius: 7px;
+
+		transition: all .3s ease-in;
+
+		&:hover {
+			background-color: $color-aсcent;
+		}
+
+  }
+
+	li + li {
+		padding-top: 10px;
+	}
+}
+
+.slick-active button{
+	background-color: $color-aсcent;
+}
+
+.slider__img {
+}
+.slider__specifications {
+  max-width: 500px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.slider__specification {
+/* 	min-height: 58px; */
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.slider__specification-title {
+  font-weight: 700;
+font-size: 14px;
+line-height: 17px;
+text-transform: uppercase;
+}
+.slider__specification-text {
+  font-size: 12px;
+  line-height: 1.25;
+  text-transform: lowercase;
+}

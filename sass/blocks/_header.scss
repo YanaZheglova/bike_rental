@@ -1,0 +1,35 @@
+.header {
+	margin-bottom:65px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+}
+.logo__img {
+}
+.menu {
+  margin-right: 73px;
+}
+.menu__list {
+  display: flex;
+  column-gap: 13px;
+  align-items: center;
+}
+.menu__item {
+}
+.menu__link {
+  line-height: 1.21;
+  text-transform: uppercase;
+	color: inherit;
+	padding: 41px 20px 41px 18px;
+	transition: all 0.2s ease-in;
+}
+.menu__link:hover { 
+  color: #ffffff;
+  background-color: $color-black;
+
+}
