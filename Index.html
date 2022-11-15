@@ -14,9 +14,9 @@
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
-    <header class="header">
+    <!-- <header class="header">
       <div class="container">
-        <div class="row">
+        <div class="header__row">
           <a href="" class="logo"
             ><img src="./img/logo.png" alt="" class="logo__img"
           /></a>
@@ -35,10 +35,10 @@
           </nav>
         </div>
       </div>
-    </header>
-    <section class="cover">
+    </header> -->
+<!--     <section class="cover">
       <div class="container">
-        <div class="row">
+        <div class="cover__row">
           <div class="cover__content">
             <h1 class="cover__content-title">Xiaomi himo C26</h1>
             <h2 class="cover__content-subtitle">Электрический велосипед</h2>
@@ -57,7 +57,8 @@
                 эргономичное сидение делают каждую поездку гораздо приятнее.
               </p>
             </div>
-            <button class="button">ЗАКАЗАТЬ</button>
+						<button class="button" type="button">ЗАКАЗАТЬ</button>
+            
           </div>
           <div class="cover__slider">
             <div class="slider">
@@ -78,8 +79,7 @@
               <li class="slider__specification">
                 <div class="slider__specification-title">3 режима езды</div>
                 <p class="slider__specification-text">
-                  механический, гибридный, <br />
-                  электрический
+                  механический, гибридный,<br /> электрический
                 </p>
               </li>
               <li class="slider__specification">
@@ -91,6 +91,7 @@
         </div>
       </div>
     </section>
+
     <serction class="description">
       <div class="container">
         <div class="row">
@@ -163,10 +164,11 @@
         </div>
       </div>
     </serction>
+
     <section class="parameter">
       <div class="container">
         <h3 class="parameter__title">ХАрактеристики</h3>
-        <div class="row">
+        <div class="parameter__row">
           <div class="parameter__content">
             <div class="parameter__item-title">Общие</div>
             <div class="parameter__item">
@@ -228,11 +230,101 @@
               <p class="parameter__subname">25 кг</p>
             </div>
           </div>
-          <img src="./img/description2.jpg" alt="" class="parameter__img" />
+          <img class="parameter__img" src="./img/description2.jpg" alt="" />
+        </div>
+      </div>
+    </section> -->
+				
+    <div class="slider-width">
+      <div class="container">
+        <div class="slider-width__items">
+          <div class="slider-width__item">
+            <img class="slider__img" src="./img/himo1.jpg" alt="" />
+          </div>
+          <div class="slider-width__item">
+            <img class="slider__img" src="./img/himo2.jpg" alt="" />
+          </div>
+          <div class="slider-width__item">
+            <img class="slider__img" src="./img/himo3.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+	
+    <section class="price">
+      <div class="container">
+        <div class="price__row">
+          <form action="" class="form">
+            <h4 class="form__title">Заказать</h4>
+            <p class="form__text">
+              Если Вы хотите заказать велосипед, оставьте свой контакт и наш
+              менеджер перезвонит вам в ближайшее время
+            </p>
+            <input class="form__input-name" type="text" placeholder="имя" />
+            <input class="form__input-phone" type="tel" placeholder="телефон" />
+            <p class="form__input-text">выберите желаемый цвет</p>
+            <div class="form__label-box">
+              <label class="form__label">
+                <input class="form__input-radio" type="radio" name="radio" />
+                <div class="form__bike">
+                  <img class="form__bike-img" src="./img/himo-2.jpg" alt="" />
+                  <p class="form__bike-price"><span>33999</span></p>
+                </div>
+                <div class="form__bike-style form__bike-style--grey"></div>
+              </label>
+              <label class="form__label">
+                <input
+                  class="form__input-radio"
+                  type="radio"
+                  name="radio"
+                  checked
+                />
+                <div class="form__bike">
+                  <img class="form__bike-img" src="./img/himo-3.jpg" alt="" />
+                  <p class="form__bike-price"><span>33999</span></p>
+                </div>
+                <div class="form__bike-style form__bike-style--white"></div>
+              </label>
+              <label class="form__label">
+                <input class="form__input-radio" type="radio" name="radio" />
+                <div class="form__bike">
+                  <img class="form__bike-img" src="./img/himo-1.jpg" alt="" />
+                  <p class="form__bike-price"><span>33999</span></p>
+                </div>
+                <div class="form__bike-style form__bike-style--red"></div>
+              </label>
+            </div>
+            <button class="button button__botton">ЗАКАЗАТЬ</button>
+          </form>
         </div>
       </div>
     </section>
-
+			<!-- 	. 
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__row">
+          <a class="footer__privacy" href="#">Политика конфиденциальности</a>
+          <div class="footer__social">
+            <a href="#" class="footer__social-link"
+              ><img class="footer__social-img" src="./img/inst.svg" alt=""
+            /></a>
+            <a href="#" class="footer__social-link"
+              ><img class="footer__social-img" src="./img/facebook.svg" alt=""
+            /></a>
+          </div>
+					<div class="footer__contact">
+						<a href="tel:+79506777777" class="footer__contact-link">
+							<img src="./img/tel.svg" alt="" class="footer__contact-img">
+							<span>+7 950 677 77 77</span>
+						</img></a>
+						<a href="mailto:elektrobikeukr@gmail.com" class="footer__contact-link">
+							<img src="./img/email.svg" alt="" class="footer__contact-img">
+							<span>elektrobikeukr@gmail.com</span>
+						</img></a>
+					</div>
+        </div>
+      </div>
+    </footer>-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="./js/slick.js"></script>
     <script src="./js/main.js"></script>

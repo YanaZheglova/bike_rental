@@ -1,21 +1,22 @@
 .cover {
-	margin-bottom: 150px;
+	margin-top: 97px;
 }
 
-.row {
+.cover__row {
   display: flex;
   justify-content: space-between;
   column-gap: 31px;
 }
 .cover__content {
 	max-width: 540px;
+ 	padding-top: 76px; 
 }
 .cover__content-title {
   font-weight: 700;
   font-size: 64px;
   line-height: 1.2;
-  margin-bottom: 22px;
-	margin-top: 81px;
+/*   margin-bottom: 22px;
+	margin-top: 81px; */
 	text-transform: capitalize;
 }
 .cover__content-subtitle {

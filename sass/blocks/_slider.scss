@@ -1,13 +1,15 @@
 .cover__slider {
+
   max-width: 630px;
-}
-.slider {
-}
+
+	& .slick-dots {
+		position: absolute;
+		top: 50px;
+		right: 0;
+
+}}
 
 .slick-dots {
-  position: absolute;
-  top: 50px;
-  right: 0;
 
   & button {
     font-size: 0;
@@ -34,16 +36,16 @@
 	background-color: $color-aсcent;
 }
 
-.slider__img {
-}
+
 .slider__specifications {
+	padding-top: 25px;
   max-width: 500px;
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
 }
 .slider__specification {
-/* 	min-height: 58px; */
+
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;

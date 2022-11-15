@@ -3,6 +3,10 @@ $color-white: #ffffff;
 $color-gray: #6f6f6f;
 $color-aсcent: #ff4040;
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -27,4 +31,5 @@ body {
 	padding: 28px 81px;
 	background-color: $color-black;
 	max-width: 420px;
+	cursor: pointer;
 }

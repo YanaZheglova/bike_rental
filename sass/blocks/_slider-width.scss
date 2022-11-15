@@ -1,0 +1,19 @@
+.slider-width {
+	margin-top: 50px;
+}
+
+.slider-width__items {
+	position: relative;
+
+	& .slick-dots {
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
+}
+.slider-width__item {
+	margin-left: 50px;
+}
+.slider__img {
+}
+

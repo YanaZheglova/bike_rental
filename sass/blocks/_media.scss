@@ -1,70 +1,201 @@
-@media (max-width: 1100px ) {
-	.button {
-		max-width: 370px;
-		padding: 28px 55px;
-	}
-	.slider {
-		max-width: 550px;
-	}
+@media (max-width: 1110px) {
+  .cover__row {
+    flex-wrap: wrap;
+  }
+  .cover__content {
+    max-width: 100%;
+    padding-top: 0;
+  }
+  .cover__content-subtitle {
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+  .cover__content-text {
+    max-width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .cover__slider {
+    max-width: 100%;
+  }
+  .row {
+    align-items: center;
+  }
+  .description__img {
+    max-width: 400px;
+    height: 100%;
+  }
+
+  .description__content-text:not(:last-child) {
+    margin-bottom: 30px;
+  }
+
+  .form__bike-img {
+    max-width: 485px;
+    padding-top: 50px;
+  }
 }
 
-@media (max-width: 990px ) {
-	.cover__content-title {
-		font-size: 55px;
-		margin-top: 81px;
-		;
-	}
-	.cover__content-subtitle {
-		font-size: 28px;
-		margin-bottom: 66px;
-	}
+@media (max-width: 990px) {
+  .cover__content-title {
+    font-size: 55px;
+    margin-top: 41px;
+  }
+  .cover__content-subtitle {
+    font-size: 28px;
+  }
 
-	.slider {
-		max-width: 450px;
-	}
+  .parameter__row {
+    flex-wrap: wrap;
+  }
 
-
+  .parameter__img {
+    order: -1;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 951px) {
+  .form__bike-img {
+    max-width: 400px;
+    padding-top: 70px;
+  }
 }
 
-@media (max-width: 890px ) {
-	.cover__content-title {
-		font-size: 45px;
-		margin-top: 81px;
-		;
-	}
-	.cover__content-subtitle {
-		font-size: 25px;
-		margin-bottom: 40px;
-	}
+@media (max-width: 890px) {
+  .cover__content-title {
+    font-size: 45px;
+    margin-top: 80px;
+  }
+  .cover__content-subtitle {
+    font-size: 25px;
+    margin-bottom: 40px;
+  }
 
-	.slider {
-		max-width: 350px;
-	}
+  .description__img {
+    display: none;
+  }
 
+  .description__content {
+    max-width: 100%;
+  }
+
+  .description__content-text {
+    max-width: 100%;
+  }
+
+  .description__content-text:not(:last-child) {
+    margin-bottom: 25px;
+  }
 }
+@media (max-width: 868px) {
+  .form {
+    max-width: 500px;
+  }
+  .form__text {
+    max-width: 100%;
+  }
 
-/* @media (max-width: 790px ) {
-
-	.cover__content-title {
-		font-size: 35px;
-		margin-top: 81px;
-			}
-
-	.cover__content-subtitle {
-		font-size: 20px;
-		margin-bottom: 30px;
-	}
-
-	.slider {
-		max-width: 350px;
-	}
-
-	.button {
-		max-width: 370px;
-		padding: 28px 55px;
-	}
-
-	.cover__content-text {
-		margin-bottom: 60px;
+  .button__botton {
+    margin-top: 300px;
+		margin-left: 43px;
+  }
+  .form__bike {
+    left: 100px;
+    right: auto;
+    top: auto;
+    bottom: 85px;
+  }
+	.form__bike-price {
+    font-size: 20px;
+    width: 144px;
+    height: 69px;
+		&::after{
+			font-size: 20px;
+			width: 144px;
+			height: 69px;
 		}
-} */
+}
+ 
+
+}
+@media (max-width: 750px) {
+  .slider-width__item {
+    margin-left: 35px;
+  }
+}
+@media (max-width: 580px) {
+.form__bike-price {
+  font-size: 25px;
+  position: absolute;
+  top: 50px;
+  right: auto;
+  left: 0;
+	display: inline-block;
+  width: 100%;
+  height: auto;
+	display: flex;
+  align-items: center;
+  justify-content: center;
+	border: 1px solid #ff4040;
+	border-radius: 50%;
+	transform: translateX(-50%);
+}
+}
+
+@media (max-width: 550px) {
+  .cover__content-title {
+    font-size: 35px;
+    margin-top: 45px;
+  }
+  .cover__content-subtitle {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+
+  .cover__content {
+    min-width: 100%;
+    padding-top: 0;
+  }
+
+  .button {
+    font-size: 18px;
+    padding: 20px 70px;
+    max-width: 100%;
+  }
+
+  .slider-width__item {
+    margin-left: 25px;
+  }
+}
+
+@media (max-width: 450px) {
+  .button {
+    font-size: 16px;
+    padding: 20px 40px;
+  }
+  .cover__content-title {
+    font-size: 30px;
+  }
+  .slider__specifications {
+    flex-wrap: wrap;
+    row-gap: 12px;
+  }
+
+  .slider__specification {
+    width: 50%;
+    align-items: center;
+    column-gap: 20px;
+  }
+
+  .slider__specification-title {
+    font-size: 12px;
+  }
+
+  .slider__specification-text {
+    text-align: center;
+  }
+
+  .parameter__item {
+    grid-gap: 10px;
+  }
+}
